@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components; 
+@tailwind utilities;
+
+@layer components {
+
+    .button-hover {                             
+        display: inline-block;
+        position: relative;
+    }
+
+    .button-hover::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #edcd1f;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+
+    .button-hover:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
+    mark {
+        color: #edcd1f;
+        background: none;
+    }
+
+    /* .textPrincialTittle{
+        @apply text-red-700 pt-10 md:text-7.5xl text-4xl font-Montserrat font-semibold;
+    } */
+
+    /* .divPrincipal{
+        @apply bg-cover w-full md:h-screen h-60vh bg-sectionOne text-center;
+    } */
+
+    .underlineTittle{
+    --firstcolor: #f6bd3a;
+    --position: center bottom;
+    --width: 6.875rem;
+    --height: 9px;
+    background: linear-gradient(var(--firstcolor), var(--firstcolor)) var(--position) / var(--width) var(--height) no-repeat;
+    padding-bottom: 1.25rem;
+    }
+}

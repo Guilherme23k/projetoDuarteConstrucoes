@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Tio</title>
+    <link rel="stylesheet" href="css/build.css">
+
+    <!--FONTES GOOGLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">    <!---->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+  </head>
+<body>
+
+    <header>
+        <nav class="flex items-center bg-white shadow-md p-3 flex-wrap px-5">
+            <a href="#" class="p-2 mr-4 inline-flex items-center cursor-pointer button-hover">
+              <img src="DUARTE_CAETANO_LOGO.jpg" class="h-6 mr-3 sm:h-11" alt="">
+            </img>
+              <span class="text-xl text-black tracking-wide font-medium" style="font-family: 'Roboto', sans-serif;"
+                >Duarte Caetano</span
+              >
+            </a>
+            <button
+            class=" text-black inline-flex p-3 bg-button-yellow hover:bg-yellow-300 transition-colors duration-200 delay-100   rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
+            data-target="#navigation"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+            <div
+            class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"
+            id="navigation"
+            >
+              <div
+              class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start flex flex-col lg:h-auto"
+              >
+                <a
+                href="#"
+                class="uppercase text-sm button-hover lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-button-yellow"
+                >
+                  <span>Home</span>
+                </a>
+                <a
+                href="#"
+                class="uppercase text-sm button-hover lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-button-yellow"
+                >
+                  <span>Serviços</span>
+                </a>
+                <a
+                href="#"
+                class="uppercase text-sm button-hover lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-button-yellow"
+                >
+                  <span>Sobre nós</span>
+                </a>
+                <a
+                href="#"
+                class="uppercase text-sm button-hover lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-button-yellow"
+                >
+                <span>Projetos</span>
+                </a>
+                <a
+                href="#"
+                class="uppercase text-sm button-hover lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:text-button-yellow"
+                >
+                  <span>Contato</span>
+                </a>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+      <div  class="bg-cover w-full md:h-80vh bg-sectionOne text-center bg-fixed"> 
+        <h1 class=" text-blue-text pt-24 md:text-7.5xl text-4xl font-Montserrat font-semibold">Duarte <mark>Caetano</mark></h1>
+        <h2 class="mt-4 text-white text-5xl font-medium font-Montserrat">CONSTRUINDO SEU <br> SONHO</h2>
+        <a  href="#"><i class="text-white text-5xl fas fa-thin fa-angle-down" ></i></a>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <h2 id="tittle" class="text-center mt-10 text-5xl font-Montserrat font-semibold underlineTittle ">SERVIÇOS</h2>
+
+        <div class="md:flex justify-center mt-10 space-x-5">
+          <!--CARD AREA-->
+        <div class="max-w-xs  rounded overflow-hidden shadow-lg bg-gray-100">
+          <img class="w-full" src="imgCard1.jpg" >
+          <div class="px-6 py-4 ">
+            <div class="font-bold text-lg font-Montserrat mb-2">Proposta de pré Construção</div>
+            <p class="text-gray-700 text-base">
+              A Duarte Caetano Construtora trabalha com a modalidade TERRENO + CONSTRUÇÃO financiada pela Caixa Econômica Federal Casa Verde e Amarela (Minha casa minha vida)            </p>
+          </div>
+        </div>
+
+        <div class="max-w-xs  rounded overflow-hidden shadow-lg bg-gray-100">
+          <img class="w-full" src="imgCard2.jpg">
+          <div class="px-6 py-4 ">
+            <div class="font-bold text-lg mb-2 font-Montserrat">Modelo arquitetonico</div>
+            <p class="text-gray-700 text-base">
+              Você escolhe a região onde quer morar, o terreno  e o modelo de sua casa, podendo escolher até os acabamentos , ou seja sua casa do seu jeito ! *consulte suas condições através de uma simulação de crédito.
+            </p>
+          </div>
+        </div>
+
+        <div class="max-w-xs  rounded overflow-hidden shadow-lg bg-gray-100">
+          <img class="w-full" src="imgCard3.jpg" >
+          <div class="px-6 py-4 ">
+            <div class="font-bold text-lg mb-2 font-Montserrat">Gestão de Construção</div>
+            <p class="text-gray-700 text-base">
+              Todos nossos profissionais o acompanham, dando soluções práticas para que seu sonho saia do papel, através de uma gestão qualificada e experiente em obras. Auxiliando também com a documentação necessária.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </section>
+
+    <section class="bg-gray-100 mt-10 px-20">
+
+      <h2 id="tittle" class="text-center mt-10 text-5xl font-Montserrat font-semibold underlineTittle ">Quem Somos</h2>
+      
+      <div class="flex justify-center space-x-1">
+      <img class="mr-20" src="imgCard2.jpg" alt="">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum officiis perspiciatis modi similique laborum nostrum repellendus rerum harum expedita ea repellat fuga, ipsam debitis? Doloribus, assumenda! Qui, excepturi quasi!</p>
+    </div>
+    </section>
+    
+
+    <section>
+        <br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br>
+    </section>
+         
+    
+</body>
+
+<style>
+  
+</style>
+
+</html>
