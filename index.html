@@ -101,7 +101,7 @@
           <img class="w-full" src="imgCard1.jpg" >
           <div class="px-6 py-4 ">
             <div class="font-bold text-lg font-Montserrat mb-2">Proposta de pré Construção</div>
-            <p class="text-gray-700 text-base">
+            <p class="text-gray-700 text-base font-Roboto">
               A Duarte Caetano Construtora trabalha com a modalidade TERRENO + CONSTRUÇÃO financiada pela Caixa Econômica Federal Casa Verde e Amarela (Minha casa minha vida)            </p>
           </div>
         </div>
@@ -110,7 +110,7 @@
           <img class="w-full" src="imgCard2.jpg">
           <div class="px-6 py-4 ">
             <div class="font-bold text-lg mb-2 font-Montserrat">Modelo arquitetonico</div>
-            <p class="text-gray-700 text-base">
+            <p class="text-gray-700 text-base font-Roboto">
               Você escolhe a região onde quer morar, o terreno  e o modelo de sua casa, podendo escolher até os acabamentos , ou seja sua casa do seu jeito ! *consulte suas condições através de uma simulação de crédito.
             </p>
           </div>
@@ -120,7 +120,7 @@
           <img class="w-full" src="imgCard3.jpg" >
           <div class="px-6 py-4 ">
             <div class="font-bold text-lg mb-2 font-Montserrat">Gestão de Construção</div>
-            <p class="text-gray-700 text-base">
+            <p class="text-gray-700 text-base font-Roboto">
               Todos nossos profissionais o acompanham, dando soluções práticas para que seu sonho saia do papel, através de uma gestão qualificada e experiente em obras. Auxiliando também com a documentação necessária.
             </p>
           </div>
@@ -130,16 +130,54 @@
     </div>
     </section>
 
-    <section class="bg-gray-100 mt-10 px-20">
+    <section class="mt-10" style="background-color: #f8f8f8;">
+      <h2 id="tittle" class=" pt-10 uppercase text-center text-5xl font-Montserrat font-semibold underlineTittle ">Quem Somos</h2>
 
-      <h2 id="tittle" class="text-center mt-10 text-5xl font-Montserrat font-semibold underlineTittle ">Quem Somos</h2>
+
+    <div class="mt-10 grid overflow-hidden grid-cols-2 grid-rows-2 gap-2">
+
       
-      <div class="flex justify-center space-x-1">
-      <img class="mr-20" src="imgCard2.jpg" alt="">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum officiis perspiciatis modi similique laborum nostrum repellendus rerum harum expedita ea repellat fuga, ipsam debitis? Doloribus, assumenda! Qui, excepturi quasi!</p>
+
+      <div class="flex  justify-center items-center row-span-2 min-w-full min-h-full rounded">
+        
+        <div class>
+        <img src="background.jpg" style="width: 500px;" alt=""></div>
+      </div>
+        <div class=" row-span-2   min-w-full min-h-full rounded">
+          <p class="font-Roboto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorum officiis perspiciatis modi similique laborum nostrum repellendus rerum harum expedita ea repellat fuga, ipsam debitis? Doloribus, assumenda! Qui, excepturi quasi!</p>
+        </div>
     </div>
-    </section>
+  </section>
     
+
+    <section class="anime" id="section2">
+
+      <h2 class="mt-5 text-3xl font-lato text-center mb-8 relative barra">Por que nos escolher:</h2>
+      <p class="mb-12 text-center">Somos uma empresa extremamente determinada com a satisfação e fidelização com o cliente.</p>
+  
+      <div class="flex flex-wrap flex-row relative justify-center w-full">
+        <div class="principal mx-3 shadow-inner relative bg-grey-flex max-h-57  max-w-sm overflow-hidden mb-7 rounded-lg">
+          <span class="block text-4xl md:text-5xl font-bold absolute leading-normal">01</span>
+        <h4 class="text-white font-lato text-3xl mb-2">Mais segurança</h4>
+        <p class="text-whitesmoke ">Garantimos total segurança e controle dentro de suas instalações!</p>
+        <img class="imagem absolute top-0 left-0 h-full w-full hover: opacity-100 " src="imagemFundo3.jpg" alt="">
+        </div>
+      
+        <div class="principal mx-3 shadow-inner relative bg-grey-flex max-h-57 max-w-sm overflow-hidden mb-7 rounded-lg ">
+          <span class="block text-4xl md:text-5xl font-bold absolute leading-normal">02</span>
+          <h4 class="text-white font-lato text-3xl mb-2">Mais controle</h4>
+          <p class="text-whitesmoke">Tenha mais liberdade e segurança em sua região, tenha o controle em suas mãos!</p>
+        <img class="imagem absolute top-0 left-0 h-full w-full hover: opacity-100 " src="imagemFundo.jpg" alt="">
+        </div>
+      
+        <div class="principal mx-3 shadow-inner relative bg-grey-flex max-h-57 max-w-sm overflow-hidden mb-7 rounded-lg ">
+          <span class="block text-4xl md:text-5xl font-bold absolute leading-normal">03</span>
+          <h4 class="text-white font-lato text-3xl mb-2">Mais comodidade</h4>
+          <p class="text-whitesmoke">Não se preocupe mais com os perigos externos em casa ou em sua empresa, tenha mais comodidade utilizando nossos serviços!</p>
+        <img class="imagem absolute top-0 left-0 h-full w-full hover: opacity-100 " src="imagemFundo2.jpg" alt="">
+        </div>
+  </div>
+  </section>
 
     <section>
         <br><br><br><br><br><br><br><br>
@@ -148,12 +186,61 @@
         <br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br>
     </section>
+
+    
+    
+
+    <br><br><br><br><br>
          
     
 </body>
 
 <style>
+ .barra::after{
+    content: "";
+    width: 120px;
+    height: 4px;
+    display: inline-block;
+    background: #edcd1f;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+    margin: 0 auto;
+  }
+
+  .principal{
+  padding: 50px 30px;
+  transition: 0.7s;
+}
+
+.principal span{
+  color: #6b6060;
+  top: 0;
+  right: 0;
+}
+
+.principal:hover span{
+  color: white;
+}
+
+
+.principal:hover{
+  padding: 30px 30px 70px 30px;
+	box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.20);
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+.imagem{
+    z-index: -1;
+    transition: all ease 1s;
+  } 
+
   
+
+
 </style>
 
 </html>

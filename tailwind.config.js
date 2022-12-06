@@ -5,8 +5,14 @@ module.exports = {
     extend: {
       colors: {
         'button-yellow': '#edcd1f',
-        'blue-text' : '#0079ae'
+        'blue-text' : '#0079ae',
+        whitesmoke: "#f5f5f5",
+        "grey-flex": "#333"
     },
+
+      width:{
+        'imageContainer' : '31.25rem'
+      },
       height: {
         '40vh' : '40vh',
         '50vh' :'50vh',
