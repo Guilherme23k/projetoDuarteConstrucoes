@@ -48,4 +48,12 @@
     background: linear-gradient(var(--firstcolor), var(--firstcolor)) var(--position) / var(--width) var(--height) no-repeat;
     padding-bottom: 1.25rem;
     }
+    
+    .imagemCliente{
+    filter: grayscale(90%);
+    transition: filter .1s ease-in;
+    }
+    .imagemCliente:hover{
+        filter: grayscale(0);
+    }
 }

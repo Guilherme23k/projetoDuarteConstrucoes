@@ -7,7 +7,8 @@ module.exports = {
         'button-yellow': '#edcd1f',
         'blue-text' : '#0079ae',
         whitesmoke: "#f5f5f5",
-        "grey-flex": "#333"
+        "grey-flex": "#333",
+        "purple-icons": "#350b2d"
     },
 
       width:{
@@ -17,10 +18,8 @@ module.exports = {
         '40vh' : '40vh',
         '50vh' :'50vh',
         '60vh' : '60vh',
+        '70vh' : '70vh',
         '80vh' : '80vh', 
-      },
-      backgroundImage: {
-        'sectionOne' : "url('/background.jpg')"
       },
       fontFamily:{
         Montserrat : "Montserrat",
